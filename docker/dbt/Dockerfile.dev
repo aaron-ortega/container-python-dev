@@ -13,7 +13,7 @@ RUN /bin/bash -c "source ~/.dbt-completion.bash"
 RUN echo 'source ~/.dbt-completion.bash' >> ~/.bashrc
 
 # Copy in required files
-COPY requirements.txt ./
+COPY ./docker/dbt/requirements.txt .
 
 ## Install Python Requirements
 RUN pip install -U pip
