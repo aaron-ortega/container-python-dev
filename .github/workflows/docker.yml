@@ -17,6 +17,6 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          github-token: ${{ secrets.REGISTRY_TOKEN }}
+          password: ${{ secrets.REGISTRY_TOKEN }}
 
 
