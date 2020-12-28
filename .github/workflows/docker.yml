@@ -28,5 +28,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           file: ./docker/dbt/Dockerfile.dev
+          tags: dbt-dev
           push: true
 
