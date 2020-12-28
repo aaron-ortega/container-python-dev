@@ -29,6 +29,6 @@ jobs:
         with:
           context: .
           file: ./docker/dbt/Dockerfile.dev
-          tags: dbt-dev
+          tags: ghcr.io/dbt-dev
           push: true
 
