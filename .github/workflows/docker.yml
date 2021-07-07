@@ -34,5 +34,5 @@ jobs:
         with:
           context: .
           file: ./docker/dbt/Dockerfile.dev
-          tags: ghcr.io/${{ github.repository }}/dbt:latest,ghcr.io/${{ github.repository }}/dbt:${{ env.DBT_VERSION }}
+          tags: ghcr.io/${{ github.repository }}/dbt:${{ env.DBT_VERSION }},ghcr.io/${{ github.repository }}/dbt:latest
           push: true
