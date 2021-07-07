@@ -35,5 +35,5 @@ jobs:
         with:
           context: .
           file: ./docker/dbt/Dockerfile.dev
-          tags: ghcr.io/${{ github.repository }}/dbt:${{ env.SHORT_SHA }}{% raw %}
+          tags: ghcr.io/${{ github.repository }}/dbt:${{ env.SHORT_SHA }}
           push: true
